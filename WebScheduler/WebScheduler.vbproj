@@ -1,0 +1,544 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{34A3731F-8B03-4D90-8D69-B8526BFD506A}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "WebScheduler"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "WebScheduler"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "connect.udl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Helper.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Job.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Job.aspx.vb"
+                    DependentUpon = "Job.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Jobs.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Jobs.aspx.vb"
+                    DependentUpon = "Jobs.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Schedule.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Schedule.aspx.vb"
+                    DependentUpon = "Schedule.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ScheduleBase.vb"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Scheduler.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scheduler.ascx.vb"
+                    DependentUpon = "Scheduler.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Schedules.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Schedules.aspx.vb"
+                    DependentUpon = "Schedules.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "StyleSheet.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\bugtest-hidden-selects.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar.php"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "jscalendar\calendar_stripped.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-blue.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-blue2.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-brown.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-green.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-setup.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-setup_stripped.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-system.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-tas.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-win2k-1.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-win2k-2.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-win2k-cold-1.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\calendar-win2k-cold-2.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\ChangeLog"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "jscalendar\dayinfo.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\img.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\index.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\menuarrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\menuarrow2.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\multiple-dates.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\README"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "jscalendar\release-notes.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\simple-1.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\simple-2.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\simple-3.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\test.php"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "jscalendar\test-position.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\doc\reference.pdf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "jscalendar\doc\html\field-button.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\doc\html\reference.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\doc\html\reference.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\doc\html\reference-Z-S.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-af.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-al.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-bg.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-big5.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-big5-utf8.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-br.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-ca.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-cs-utf8.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-cs-win.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-da.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-de.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-du.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-el.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-en.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-es.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-fi.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-fr.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-he-utf8.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-hr.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-hr-utf8.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-hu.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-it.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-jp.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-ko.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-ko-utf8.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-lt.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-lt-utf8.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-lv.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-nl.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-no.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-pl.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-pl-utf8.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-pt.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-ro.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-ru.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-ru_win_.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-si.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-sk.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-sp.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-sv.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-tr.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\calendar-zh.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\lang\cn_utf8.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\active-bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\dark-bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\hover-bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\menuarrow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\normal-bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\rowhover-bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\status-bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\theme.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\title-bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "jscalendar\skins\aqua\today-bg.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

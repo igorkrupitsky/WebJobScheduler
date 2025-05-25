@@ -1,0 +1,12 @@
+TD{font:menu}
+INPUT{font:menu}
+SELECT{font:menu}
+
+.ColHeader 
+{
+	FONT-WEIGHT: bold; 
+	BORDER-BOTTOM: blue 1px solid; 
+	background-color:#C0C0FF;
+	font-size:14px;
+	font-family:Tahoma;
+}
